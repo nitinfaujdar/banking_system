@@ -27,11 +27,17 @@ A multi-tenant, secure banking application built with Django and Django REST Fra
 ## 🛠️ Project Setup Instructions
 
 python -m venv venv
+
 source venv/bin/activate        # On Windows: venv\Scripts\activate
+
 pip install -r requirements.txt
+
 python manage.py makemigrations
+
 python manage.py migrate
+
 python manage.py createsuperuser
+
 python manage.py runserver
 
 ## Access Application
@@ -44,7 +50,7 @@ python manage.py runserver
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/banking_system.git
+git clone https://github.com/nitinfaujdar/banking_system.git
 cd banking_system
 
 📘 API Endpoints
